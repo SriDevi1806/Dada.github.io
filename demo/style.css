@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+   
+    text-decoration: none;
+    scroll-behavior: smooth;
+    border: none;
+    outline: none;
+}
+
+.body {
+    color: #2d2b2b;
+    background-color: #fff;
+}
+
+.header {
+    position:absolute;
+    top: 0;
+    right: 0;
+    z-index: 100;
+    width: 100%;
+    display: flex;
+    align-items: left;
+    justify-content: right;
+    background: transparent;
+   
+    
+}
+
+.logo{
+    padding-right: 5px;
+    width: 800px;
+}
+.about-img {
+    padding: 15px;
+    justify-content: right;
+   height: 511px;
+   width: 611px;
+}
+
+.section {
+    padding: 2px 15% 5px;
+}
+
+.home {
+    position: relative;
+    min-height: 10vh;
+    width: 100%;
+    background-color: #fff;
+    background-size: cover;
+     display:flex;
+    align-items: right;
+    justify-content: right;
+    font-family: 'Dosis', sans-serif;
+}
+
+.hero-text h3 {
+    justify-content: right;
+    color: var(--text-color);
+    font-size: 80px;
+    font-weight: 900;
+   
+    font-style: italic;
+}
+
+.hero-text h1 {
+    font-size: 90px;
+    color: var(--text-color);
+    font-weight: 600;
+    font-style: italic;
+}
+
+.img{
+    justify-content: right;
+    padding: 5px;
+    width: 300px;
+}
+.h1{
+    align-items: center;
+    padding: 10px;
+}
+
+.paragraph{
+   padding: 1px;
+    color: var(--other-color);
+    font-size: 25px;
+    line-height: 30px;
+    margin-bottom: 3rem;
+}
+.about {
+    display: grid;
+    align-items: right;
+    gap: 1rem;
+    background-color: white;
+}
